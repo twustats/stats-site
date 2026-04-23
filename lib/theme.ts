@@ -6,8 +6,8 @@ export type Theme = {
 };
 
 export const theme: Theme = {
-  background: "#000000",
-  foreground: "#ffffff",
+  background: "#808080",
+  foreground: "#ff0000",
   accent: "#a855f7",
   font: "system-ui, sans-serif",
 };
