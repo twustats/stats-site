@@ -21,7 +21,9 @@ export default function Home() {
 
               <ul className="mt-5 divide-y divide-white/10 rounded-lg border border-white/10">
                 {unit.chapters.map((ch) => {
-                  const chapter = ch as typeof ch & { homework?: string };
+                  const chapter = ch as typeof ch & {
+                    homeworks?: { label: string; href: string }[];
+                  };
                   return (
                     <li
                       key={chapter.label}
@@ -46,15 +48,16 @@ export default function Home() {
                         >
                           Answer Key
                         </a>
-                        {chapter.homework && (
+                        {chapter.homeworks?.map((hw) => (
                           <a
-                            href={chapter.homework}
+                            key={hw.href}
+                            href={hw.href}
                             className="rounded border px-3 py-1 hover:opacity-80"
                             style={{ borderColor: theme.accent, color: theme.accent }}
                           >
-                            Homework
+                            {hw.label}
                           </a>
-                        )}
+                        ))}
                       </span>
                     </li>
                   );

@@ -1,0 +1,221 @@
+{
+  "title": "Chapter 1 Homework — Multiple Choice",
+  "subtitle": "Sampling and Data — 20 multiple-choice questions covering definitions, sampling techniques, sources of bias, and frequency tables.",
+  "instructions": "Choose the single best answer for each question.",
+  "sections": [
+    {
+      "heading": "1.1 — Definitions, Population vs Sample, Parameter vs Statistic",
+      "questions": [
+        {
+          "prompt": "Which of the following best describes \"statistics\" as a discipline?",
+          "choices": [
+            "The study of probability theory only",
+            "The science of planning studies and experiments, obtaining data, and then organizing, summarizing, analyzing, and drawing conclusions from the data",
+            "The collection of numerical facts about a population",
+            "The use of mathematical equations to predict the future"
+          ]
+        },
+        {
+          "prompt": "A sample is best defined as:",
+          "choices": [
+            "The entire group being studied",
+            "A subset of the population that is being studied",
+            "A numerical summary of the population",
+            "Every person who answers a survey"
+          ]
+        },
+        {
+          "prompt": "The mean weight of all 4,200 students at a university is reported as 158 pounds. The value 158 pounds is best described as:",
+          "choices": [
+            "A statistic",
+            "A parameter",
+            "A variable",
+            "An individual"
+          ]
+        },
+        {
+          "prompt": "A poll of 800 randomly selected adults found that 62% support a new tax law. The 62% is best described as:",
+          "choices": [
+            "A parameter",
+            "A statistic",
+            "The population",
+            "An individual"
+          ]
+        },
+        {
+          "prompt": "Which of the following is an example of descriptive (rather than inferential) statistics?",
+          "choices": [
+            "Predicting the outcome of a national election from a sample of 1,500 voters",
+            "Reporting the average height of the 25 students in a particular classroom",
+            "Estimating the proportion of defective parts in a shipment based on a small sample",
+            "Using a sample mean to estimate the population mean"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.2 — Types of Data",
+      "questions": [
+        {
+          "prompt": "Which variable is qualitative (categorical)?",
+          "choices": [
+            "Age in years",
+            "Number of cars sold last week",
+            "Eye color",
+            "Length of a phone call in minutes"
+          ]
+        },
+        {
+          "prompt": "Which variable is quantitative?",
+          "choices": [
+            "Favorite movie genre",
+            "ZIP code",
+            "Number of pets owned",
+            "Brand of phone"
+          ]
+        },
+        {
+          "prompt": "Which variable is discrete?",
+          "choices": [
+            "Volume of water in a swimming pool",
+            "Time to run a marathon",
+            "Number of goals scored in a soccer game",
+            "Outdoor temperature at noon"
+          ]
+        },
+        {
+          "prompt": "Which variable is continuous?",
+          "choices": [
+            "Number of books on a shelf",
+            "Height of a person, in centimeters",
+            "Number of students enrolled in a class",
+            "Number of text messages sent today"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.2 — Sampling Techniques",
+      "questions": [
+        {
+          "prompt": "A researcher numbers all 500 employees of a company and uses a random number generator to choose 30 of them to interview. This is an example of:",
+          "choices": [
+            "Convenience sampling",
+            "Stratified sampling",
+            "Cluster sampling",
+            "Simple random sampling"
+          ]
+        },
+        {
+          "prompt": "A factory inspects every 20th item that comes off the assembly line. This is an example of:",
+          "choices": [
+            "Systematic sampling",
+            "Cluster sampling",
+            "Simple random sampling",
+            "Convenience sampling"
+          ]
+        },
+        {
+          "prompt": "A school has 600 freshmen, 500 sophomores, 400 juniors, and 300 seniors. To survey students, an administrator randomly selects 30 students from each class level. This is an example of:",
+          "choices": [
+            "Cluster sampling",
+            "Stratified sampling",
+            "Simple random sampling",
+            "Systematic sampling"
+          ]
+        },
+        {
+          "prompt": "A school district has 80 elementary schools. To estimate average reading scores, a researcher randomly chooses 5 schools and tests every student in those 5 schools. This is an example of:",
+          "choices": [
+            "Stratified sampling",
+            "Systematic sampling",
+            "Cluster sampling",
+            "Convenience sampling"
+          ]
+        },
+        {
+          "prompt": "A reporter interviews the first 25 people who walk past a downtown bus stop. The most accurate description of this method is:",
+          "choices": [
+            "Simple random sampling",
+            "Stratified sampling",
+            "Convenience sampling",
+            "Systematic sampling"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.2 — Sources of Bias",
+      "questions": [
+        {
+          "prompt": "A magazine publishes a survey on its website and uses only the responses of readers who choose to fill it out. About 4% of subscribers respond. The most likely source of bias is:",
+          "choices": [
+            "There is no bias because the survey reached every subscriber",
+            "Nonresponse bias",
+            "Response bias",
+            "Sampling error only"
+          ]
+        },
+        {
+          "prompt": "A radio talk show asks listeners to call in and vote on a proposed local ordinance. The audience is mostly retirees who listen during the day. This is an example of:",
+          "choices": [
+            "Sampling bias",
+            "Nonresponse bias",
+            "Response bias",
+            "Random sampling"
+          ]
+        },
+        {
+          "prompt": "In a face-to-face interview, subjects are asked how often they cheat on their taxes. The most likely source of bias is:",
+          "choices": [
+            "Sampling bias",
+            "Nonresponse bias",
+            "Response bias",
+            "Random error"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.3 — Frequency, Relative Frequency, and Cumulative Frequency",
+      "questions": [
+        {
+          "prompt": "Which best defines relative frequency?",
+          "choices": [
+            "The number of observations in a category",
+            "The proportion of observations in a category relative to the total number of observations",
+            "The cumulative total of all categories",
+            "The midpoint of a class interval"
+          ]
+        },
+        {
+          "prompt": "Eighty students take an exam, and 12 of them earn a B. The relative frequency of \"B\" is:",
+          "choices": [
+            "12",
+            "0.12",
+            "0.15",
+            "0.20"
+          ]
+        },
+        {
+          "prompt": "In a frequency distribution, the cumulative frequency of a class is best described as:",
+          "choices": [
+            "The frequency of that class divided by the total",
+            "The frequency of that class minus the frequency of the previous class",
+            "The sum of the frequencies of that class and all previous classes",
+            "The total number of classes in the distribution"
+          ]
+        },
+        {
+          "prompt": "A relative frequency distribution is correctly constructed if the relative frequencies:",
+          "choices": [
+            "Sum to the total number of observations",
+            "Sum to 1 (or about 1, due to rounding)",
+            "Are all equal",
+            "Sum to 100"
+          ]
+        }
+      ]
+    }
+  ]
+}
