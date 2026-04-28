@@ -20,33 +20,45 @@ export default function Home() {
               <p className="mt-2 leading-relaxed opacity-80">{unit.blurb}</p>
 
               <ul className="mt-5 divide-y divide-white/10 rounded-lg border border-white/10">
-                {unit.chapters.map((ch) => (
-                  <li
-                    key={ch.label}
-                    className="flex flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
-                  >
-                    <span className="font-medium">{ch.label}</span>
-                    <span className="flex gap-3 text-sm">
-                      <a
-                        href={ch.notes}
-                        target="_blank"
-                        rel="noopener"
-                        className="rounded border border-white/20 px-3 py-1 hover:opacity-80"
-                        style={{ color: theme.accent }}
-                      >
-                        Notes
-                      </a>
-                      <a
-                        href={ch.key}
-                        target="_blank"
-                        rel="noopener"
-                        className="rounded border border-white/20 px-3 py-1 hover:opacity-80"
-                      >
-                        Answer Key
-                      </a>
-                    </span>
-                  </li>
-                ))}
+                {unit.chapters.map((ch) => {
+                  const chapter = ch as typeof ch & { homework?: string };
+                  return (
+                    <li
+                      key={chapter.label}
+                      className="flex flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                    >
+                      <span className="font-medium">{chapter.label}</span>
+                      <span className="flex flex-wrap gap-2 text-sm sm:gap-3">
+                        <a
+                          href={chapter.notes}
+                          target="_blank"
+                          rel="noopener"
+                          className="rounded border border-white/20 px-3 py-1 hover:opacity-80"
+                          style={{ color: theme.accent }}
+                        >
+                          Notes
+                        </a>
+                        <a
+                          href={chapter.key}
+                          target="_blank"
+                          rel="noopener"
+                          className="rounded border border-white/20 px-3 py-1 hover:opacity-80"
+                        >
+                          Answer Key
+                        </a>
+                        {chapter.homework && (
+                          <a
+                            href={chapter.homework}
+                            className="rounded border px-3 py-1 hover:opacity-80"
+                            style={{ borderColor: theme.accent, color: theme.accent }}
+                          >
+                            Homework
+                          </a>
+                        )}
+                      </span>
+                    </li>
+                  );
+                })}
               </ul>
             </section>
           ))}

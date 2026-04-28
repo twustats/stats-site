@@ -1,0 +1,52 @@
+{
+  "title": "Chapter 1 Homework",
+  "subtitle": "Sampling and Data — 20 questions covering definitions, sampling techniques, sources of bias, and frequency tables.",
+  "instructions": "Show your reasoning for each problem. Where a question has multiple parts, label your answers (a), (b), (c), etc.",
+  "sections": [
+    {
+      "heading": "1.1 — Population, Sample, Parameter, Statistic",
+      "questions": [
+        "A school district has 12,400 students. To estimate the average daily screen time of students in the district, researchers survey 250 randomly chosen students. Identify (a) the population, (b) the sample, and (c) one individual in this study.",
+        "In a recent campus survey of 600 students, 38% reported skipping breakfast. The university registrar later reports that 41% of all 22,000 enrolled students skipped breakfast last year. Label each percentage as a parameter or a statistic, and explain.",
+        "A factory produces 50,000 light bulbs in a week. Quality control tests 75 of them and finds that 4% are defective. Identify the parameter and the statistic in this scenario, and state which one is being used to estimate the other.",
+        "For each of the following, decide whether descriptive or inferential statistics is being used. (a) The mean test score for a class of 28 students was 81.2. (b) Based on a poll of 1,500 voters, 52% of all U.S. voters support the new bill. (c) A bar graph shows the favorite ice-cream flavors of 60 children at a summer camp.",
+        "Suppose you survey 100 students and record their college major, GPA, and number of credit hours taken this semester. List the variables and tell whether each variable produces qualitative or quantitative data."
+      ]
+    },
+    {
+      "heading": "1.2 — Types of Data",
+      "questions": [
+        "Classify each variable as qualitative or quantitative. (a) Hair color  (b) Annual household income, in dollars  (c) Phone area code  (d) Number of siblings  (e) Brand of car owned",
+        "Decide whether each quantitative variable is discrete or continuous. (a) Number of cars sold by a dealership in a month  (b) Weight of a watermelon at a grocery store  (c) Height of a fifth-grader, in inches  (d) Number of phone calls received at a help desk in one hour  (e) Time it takes a student to finish a 5K race",
+        "A botanist measures the length of leaves and counts the number of leaves on each plant in her study. Which measurement is discrete and which is continuous? Briefly explain your reasoning."
+      ]
+    },
+    {
+      "heading": "1.2 — Sampling Techniques",
+      "questions": [
+        "A teacher writes the name of every student in her class on slips of paper, places them in a hat, and draws 5 slips without looking. Which sampling method is being used?",
+        "A bakery's manager wants customer feedback. Starting with the 4th customer of the day, she gives a survey to every 10th customer until she has 50 responses. Which sampling technique is this?",
+        "A city has 2,000 high-school students split among three high schools. To estimate student opinion on a new bus route, a researcher randomly selects 50 students from each high school. Identify the sampling technique and explain why a researcher might choose it over a simple random sample.",
+        "A university has 320 sections of introductory math classes meeting this semester. To estimate the proportion of math students who own a graphing calculator, a researcher randomly selects 8 sections and surveys every student in those 8 sections. Identify the sampling technique.",
+        "A reporter stands outside one campus dining hall during lunch and asks the first 30 people who walk by their opinion of the meal plan. Which sampling technique is this, and why is it considered a poor method?",
+        "Identify the sampling method used in each of the following. (a) The DMV randomly selects 5 area codes in Texas, then surveys every licensed driver in those area codes.  (b) A polling firm sorts registered voters by political party and randomly samples 200 from each party.  (c) Every 25th item on an assembly line is inspected.  (d) A YouTuber posts a survey link in a video and uses the first 500 responses.",
+        "Explain in one or two sentences why a simple random sample is considered an unbiased sampling method. What property does every individual in the population have under SRS?"
+      ]
+    },
+    {
+      "heading": "1.2 — Sources of Bias",
+      "questions": [
+        "A radio station asks listeners to call in to vote on a proposed local ordinance. Many of the listeners are retirees who tune in during the day. Identify the type of bias this study most likely suffers from and explain why.",
+        "A 50-question paper survey is mailed to 5,000 households. Only 320 households return a completed survey. Identify the most likely source of bias in the resulting data and briefly explain.",
+        "Researchers at a clinic ask patients face-to-face how often they use illegal drugs. Identify the type of bias most likely to occur and explain why."
+      ]
+    },
+    {
+      "heading": "1.3 — Frequency Tables",
+      "questions": [
+        "A teacher records the number of pets owned by each of 25 students: 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 6, 7, 8, 10. Group the data into the categories 0, 1, 2, 3, 4, 5+, then build a table showing the frequency and the relative frequency for each category. Verify that your relative frequencies sum to 1.",
+        "Twenty students were asked how many hours of sleep they got last night. The frequencies are: 4–5 hrs: 3,  6–7 hrs: 12,  8–9 hrs: 18,  10–11 hrs: 7. (a) Build a table that shows the frequency, the relative frequency (rounded to two decimal places), and the cumulative frequency for each row. (b) What proportion of students reported sleeping fewer than 8 hours?"
+      ]
+    }
+  ]
+}

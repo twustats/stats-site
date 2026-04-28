@@ -6,7 +6,7 @@
       "name": "Unit 1 — Exploring Data",
       "blurb": "Describing distributions, summarizing one variable, and looking at relationships between two variables.",
       "chapters": [
-        { "label": "Chapter 1", "notes": "/notes/unit-1/ch1-notes.pdf", "key": "/notes/unit-1/ch1-key.pdf" },
+        { "label": "Chapter 1", "notes": "/notes/unit-1/ch1-notes.pdf", "key": "/notes/unit-1/ch1-key.pdf", "homework": "/homework/ch1" },
         { "label": "Chapter 2", "notes": "/notes/unit-1/ch2-notes.pdf", "key": "/notes/unit-1/ch2-key.pdf" },
         { "label": "Chapter 3", "notes": "/notes/unit-1/ch3-notes.pdf", "key": "/notes/unit-1/ch3-key.pdf" },
         { "label": "Chapter 12", "notes": "/notes/unit-1/ch12-notes.pdf", "key": "/notes/unit-1/ch12-key.pdf" }
