@@ -23,6 +23,7 @@ export default function Home() {
                 {unit.chapters.map((ch) => {
                   const chapter = ch as typeof ch & {
                     homeworks?: { label: string; href: string }[];
+                    activities?: { label: string; href: string }[];
                   };
                   return (
                     <li
@@ -56,6 +57,16 @@ export default function Home() {
                             style={{ borderColor: theme.accent, color: theme.accent }}
                           >
                             {hw.label}
+                          </a>
+                        ))}
+                        {chapter.activities?.map((act) => (
+                          <a
+                            key={act.href}
+                            href={act.href}
+                            className="rounded border px-3 py-1 hover:opacity-80"
+                            style={{ borderColor: theme.accent, color: theme.accent }}
+                          >
+                            {act.label}
                           </a>
                         ))}
                       </span>

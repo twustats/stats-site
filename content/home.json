@@ -15,7 +15,14 @@
             { "label": "Homework (MC)", "href": "/homework/ch1-mc" }
           ]
         },
-        { "label": "Chapter 2", "notes": "/notes/unit-1/ch2-notes.pdf", "key": "/notes/unit-1/ch2-key.pdf" },
+        {
+          "label": "Chapter 2",
+          "notes": "/notes/unit-1/ch2-notes.pdf",
+          "key": "/notes/unit-1/ch2-key.pdf",
+          "activities": [
+            { "label": "Excel Activity", "href": "/activities/ch2-excel" }
+          ]
+        },
         { "label": "Chapter 3", "notes": "/notes/unit-1/ch3-notes.pdf", "key": "/notes/unit-1/ch3-key.pdf" },
         { "label": "Chapter 12", "notes": "/notes/unit-1/ch12-notes.pdf", "key": "/notes/unit-1/ch12-key.pdf" }
       ]
