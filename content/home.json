@@ -19,6 +19,9 @@
           "label": "Chapter 2",
           "notes": "/notes/unit-1/ch2-notes.pdf",
           "key": "/notes/unit-1/ch2-key.pdf",
+          "homeworks": [
+            { "label": "Homework", "href": "/homework/ch2" }
+          ],
           "activities": [
             { "label": "Excel Activity", "href": "/activities/ch2-excel" }
           ]

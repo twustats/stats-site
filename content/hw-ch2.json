@@ -1,0 +1,57 @@
+{
+  "title": "Chapter 2 Homework",
+  "subtitle": "Descriptive Statistics — 20 questions covering histograms, measures of location, measures of center, skewness, spread, and z-scores.",
+  "instructions": "Show your work for every calculation. Round final answers to two decimal places unless the question says otherwise. Where a question has multiple parts, label your answers (a), (b), (c), etc.",
+  "sections": [
+    {
+      "heading": "2.2 — Histograms and Shape",
+      "questions": [
+        "A histogram of customer wait times (in minutes) at a coffee shop has most of the data piled up near the low end and a long tail extending to the right. (a) Describe the shape of the distribution. (b) Would you expect the mean wait time to be greater than, equal to, or less than the median? Explain.",
+        "A frequency table records the heights (in inches) of 50 adults: 60–63: 4,  64–67: 12,  68–71: 18,  72–75: 11,  76–79: 5. (a) Construct the relative frequency distribution (round each relative frequency to two decimals). (b) Verify that the relative frequencies sum to (approximately) 1. (c) Describe the shape of the distribution.",
+        "A histogram of student test scores has two clear peaks — one near 65 and another near 90, with a dip between them. What is this shape called, and what might it suggest about the underlying data?"
+      ]
+    },
+    {
+      "heading": "2.3 – 2.4 — Median, Quartiles, IQR, Five-Number Summary",
+      "questions": [
+        "Find the median of each data set. (a) 12, 8, 15, 22, 7, 19, 11  (b) 4, 9, 6, 11, 13, 7, 5, 12",
+        "The textbook costs (in dollars) for nine students are: 45, 78, 62, 95, 110, 55, 88, 72, 130. Find the first quartile Q₁, the median (Q₂), the third quartile Q₃, and the interquartile range (IQR).",
+        "In a city, the 25th percentile of household income is $32,000, the 50th percentile is $58,000, and the 75th percentile is $94,000. Interpret each of the three values in plain English (one or two sentences each).",
+        "The daily high temperatures, in °F, for 11 days in a city are: 68, 71, 73, 75, 75, 78, 80, 82, 84, 88, 91. Construct the five-number summary (Min, Q₁, Median, Q₃, Max).",
+        "Using the temperature data from the previous question, apply the 1.5·IQR rule to determine whether any of the values are outliers. Show the lower and upper fences in your work."
+      ]
+    },
+    {
+      "heading": "2.5 — Mean, Median, Mode, and Resistance",
+      "questions": [
+        "A small business records the number of customers served on each of 8 days: 14, 19, 19, 22, 25, 19, 30, 18. Find the mean, the median, and the mode.",
+        "Suppose the value 30 in the previous question is replaced with 130 (a holiday rush). Before computing, predict whether the mean and the median will increase, decrease, or stay roughly the same. Then verify by computing the new mean and the new median.",
+        "State the appropriate symbol (Greek or Latin) for each quantity, and identify whether it is a parameter or a statistic. (a) The mean of all 4,500 student GPAs at a university  (b) The mean GPA of 60 randomly selected students from that university  (c) The standard deviation of the entire population of GPAs  (d) The standard deviation computed from the sample of 60 students",
+        "A news article reports that the median household income in a city is $58,000 and the mean household income is $96,000. (a) Which value is more resistant to outliers? (b) Which is the better summary of a “typical” household, and why? (c) What does the gap between the two suggest about the shape of the income distribution?"
+      ]
+    },
+    {
+      "heading": "2.6 — Skewness",
+      "questions": [
+        "For each described histogram, state how the mean compares to the median (less than, approximately equal to, or greater than): (a) roughly symmetric and bell-shaped; (b) tail extends much farther to the right than to the left; (c) tail extends much farther to the left than to the right.",
+        "Sketch a smooth distribution that is right-skewed. Mark and label the approximate locations of the mean, median, and mode on your sketch."
+      ]
+    },
+    {
+      "heading": "2.7 — Range, Variance, and Standard Deviation",
+      "questions": [
+        "The sale prices (in thousands of dollars) of seven recently sold homes are: 220, 245, 260, 275, 290, 310, 410. Compute the range and comment briefly on whether the largest value is influencing your answer.",
+        "A coach records the number of hours seven athletes spent in the weight room last week: 2, 5, 4, 9, 4, 8, 10. (a) Compute the sample mean x̄. (b) Build a table with columns x, (x − x̄), and (x − x̄)². (c) Use your table to compute the sample variance s² and the sample standard deviation s. Round to two decimal places.",
+        "A teacher reports that for a quiz the sample variance is s² = 36 points². (a) What is the standard deviation? (b) Can the variance ever be negative? Justify your answer. (c) Can s be zero? If so, what would that imply about the data?",
+        "Two classes take the same exam. Class A has mean 80 and standard deviation 4; Class B has mean 80 and standard deviation 12. Both classes have the same mean. (a) Which class's scores are more spread out? (b) In practical terms, what does this difference mean for students in the two classes?"
+      ]
+    },
+    {
+      "heading": "Z-Scores",
+      "questions": [
+        "On a national reading test, scores have mean μ = 500 and standard deviation σ = 100. Compute the z-score for each student and interpret what each z-score tells you. (a) Carlos, who scored 620  (b) Naomi, who scored 450  (c) Jamal, who scored 740",
+        "Maya took a math exam and a history exam. On math she scored 88, while the class mean was 80 with a standard deviation of 5. On history she scored 92, while the class mean was 88 with a standard deviation of 8. On which exam did Maya perform relatively better? Justify your answer using z-scores."
+      ]
+    }
+  ]
+}
